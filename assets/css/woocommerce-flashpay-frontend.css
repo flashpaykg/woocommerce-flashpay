@@ -1,0 +1,12 @@
+/* Hide enabled Apple Pay method before check availability */
+.wc_payment_method.payment_method_flashpay-apple-pay {
+  display: none;
+}
+
+.ep-visible {
+  display: block !important;
+}
+
+.payment_method_flashpay-card {
+  padding: 0 !important;
+}
